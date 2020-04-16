@@ -84,6 +84,9 @@ main {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background-color: black;
     padding: 10px;
@@ -145,4 +148,13 @@ footer p {
 #color, #font, #text-style {
     padding-top: 60px;
     margin-top: -60px;
+}
+
+
+@media only screen and (maxwidth = 480px)
+{
+    video {
+        width: 90%;
+        height: auto;
+    }
 }
