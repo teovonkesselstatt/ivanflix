@@ -9,13 +9,6 @@ html {
     margin: 0 auto;
 }
 
-nav li h1 {
-    height: 50px;
-    margin: 0;
-    color: #e85a4f;
-    font-weight: lighter;
-}
-
 h2 {
     margin: 20px;
     color: #e98074;
@@ -68,6 +61,13 @@ nav li {
     font-size: larger;
     padding: 0 20px;
     color: white;
+}
+
+nav li h1 {
+    height: 50px;
+    margin: 0;
+    color: #e85a4f;
+    font-weight: lighter;
 }
 
 nav li a {
@@ -151,10 +151,23 @@ footer p {
 }
 
 
-@media only screen and (maxwidth = 480px)
+@media only screen and (max-width: 480px)
 {
+    html {
+        overflow-x: hidden;
+    }
     video {
         width: 90%;
         height: auto;
     }
+    .nav {
+        position: static;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+.hidden {
+    visibility: hidden;
 }
