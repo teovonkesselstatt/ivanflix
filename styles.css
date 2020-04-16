@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+}
+html {
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+nav li h1 {
+    height: 50px;
+    margin: 0;
+    color: #e85a4f;
+    font-weight: lighter;
+}
+
+h2 {
+    margin: 20px;
+    color: #e98074;
+    font-weight: lighter;
+}
+
+h3 {
+    margin: 0 20px;
+    color: #e98074;
+    font-weight: lighter;
+}
+
+p {
+    color: #8d8e8a;
+    padding: 10px;
+    font-weight: 500;
+}
+
+section {
+    width: 85%;
+    margin: 20px auto;
+    border: 2px solid #D8C3A5;
+    padding: 5px;
+}
+
+nav {
+    width: 100%;
+    padding: 20px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: black;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0 20px;
+    color: white;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8d8e8a;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+}
+
+.color {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: 3px solid white;
+    margin: 0 auto;
+}
+
+
+
+.font{
+    display: inline-block;
+    margin: 0 30px 30px;
+    color: #8d8e8a;
+    font-weight: 500;
+    font-size: larger;
+}
+
+
+.bottom {
+    margin-bottom: 75px;
+}
+
+.text {
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    padding: 5px;
+    border: 2px dashed #D8C3A5;
+    border-radius: 5px;
+}
+
+.text p {
+    text-align: left;
+}
+
+.text h1, .text h2 {
+    margin: 0;
+}
+
+footer p {
+    font-weight: lighter;
+    color: white;
+}
+
+#color, #font, #text-style {
+    padding-top: 60px;
+    margin-top: -60px;
+}
