@@ -166,6 +166,12 @@ footer p {
     .hidden {
         display: none;
     }
+    footer {
+        position: static;
+    }
+    .bottom {
+        margin-bottom: 0;
+    }
 }
 
 .hidden {
