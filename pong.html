@@ -51,7 +51,7 @@
 const canvas = document.getElementById('game');
 
 const context = canvas.getContext('2d');
-
+const audio = new Audio('sape.mp3');
 const grid = 15;
 
 const paddleHeight = grid * 5; // 80
@@ -243,11 +243,8 @@ function loop() {
   // reset ball if it goes past paddle (but only if we haven't already done so)
 
   if ( (ball.x < 0 || ball.x > canvas.width) && !ball.resetting) {
-
+    audio.play();
     ball.resetting = true;
-
-
-
     // give some time for the player to recover before launching the ball again
 
     setTimeout(() => {
